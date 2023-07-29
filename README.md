@@ -1,16 +1,31 @@
 # tenten
 
-A new Flutter project.
+A weather application
 
-## Getting Started
+## Preview
 
-This project is a starting point for a Flutter application.
+<img src="./assets/images/preview.png" />
 
-A few resources to get you started if this is your first Flutter project:
+## Getting started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Get country api
+Login to website to key api key: https://api-ninjas.com
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Get weather api
+Login to website to get api key: https://openweathermap.com
+
+#### Run project
+1. Get dependencies:
+```
+flutter pub get
+```
+
+2. List devices connected
+```
+fltuter devices
+```
+
+3. Run flutter to specify device
+```
+flutter run -d {device_id}
+```
